@@ -6,28 +6,28 @@
     <link rel="stylesheet" href="index.css">
     <title>Arbor Finance | Home</title>
   </head>
-  <body class="overflow-x-hidden bg-primary-color">
+  <body class="overflow-x-hidden">
     <!-- Header Start -->
-    <header class="flex w-[100%] h-screen flex-col bg-hero-section bg-no-repeat bg-cover pl-[70px] pr-[70px] pt-[30px]">
+    <header class="flex w-[100%] h-screen flex-col bg-hero-section bg-no-repeat bg-cover pl-[70px] pr-[70px] pt-[30px] bg-bottom">
       <nav class="flex justify-between">
-        <img class="h-[48px]" src="./assets/images/Arbor Finance Logo (White).png" alt="web logo">
-        <button class="w-[115px] border-2 border-secondary-color font-['neue-haas-medium'] text-lg rounded-3xl text-white">Contact</button>
+        <img class="h-[48px]" src="./assets/images/logo.png" alt="web logo">
+        <button class="w-[115px] border-2 border-secondary-color font-['neue-haas-medium'] text-lg rounded-3xl text-white hover:bg-secondary-color">Contact</button>
       </nav>
-      <div class="flex-1 flex justify-center items-center flex-col space-y-6">
-        <h1 class="text-3xl text-center font-['neue-haas-medium'] capitalize md:text-5xl text-white">Borrow with no liquidations<br/>against $ GTC</h1>
+      <div class="flex-1 flex justify-center items-center text-center flex-col space-y-6">
+        <h1 class="text-5xl lg:text-6xl font-bold capitalize text-white mb-2 lg:mb-6">Borrow With No Liquidations <br/>Against $ <a href="" class="typewrite" data-period="2000" data-type='[ "ANYTHING","BIT", "LDO", "GNO", "ANYTHING", "FOX", "BAL", "ENS", "ANYTHING", "GTC", "RAD", "ROOK", "ANYTHING", "PERP", "TRIBE", "API3" ]'><span class="wrap"></span></a></h1>
         <p class="text-sm font-[neue-haas-light] text-white text-center md:text-lg capitalize tracking-wide">arbor enables creditworthy DAOs to obtain fixed-rate
           <br/> financing using their project tokens as collateral.
         </p>
         <div class="flex space-x-10">
-          <button class="w-[130px] font-[neue-haas-medium] text-lg h-12 text-white bg-black">Get Access</button>
-          <button class="w-[130px] font-[neue-haas-medium] text-lg h-12 text-black bg-secondary-color">Learn More</button>
+          <button class="w-[130px] font-[neue-haas-medium] text-lg h-12 text-white bg-black hover:bg-white hover:text-black">Get Access</button>
+          <button class="w-[130px] font-[neue-haas-medium] text-lg h-12 text-black bg-secondary-color hover:bg-tertiary-color hover:text-white">Learn More</button>
         </div>
       </div>
     </header>
     <!-- Header End -->
 
     <!-- Products Section Start -->
-    <div class="pl-[70px] pr-[70px] pt-[30px] w-[100%] bg-frame-1 bg-primary-color space-y-5">
+    <div class="pl-[70px] pr-[70px] pt-[30px] w-[100%] min-h-screen bg-primary-color bg-frame-1 space-y-5 bg-top">
       <div class="flex justify-start items-center space-x-2">
         <hr class="w-[90px] border-secondary-color border-2 rounded-sm"/>
         <h2 class="text-secondary-color text-lg font-[neue-haas-medium]">Product</h2>
@@ -43,23 +43,23 @@
           with DeFi natives.</p> 
       </div>
 
-      <div class="flex-wrap space-y-[130px] lg:space-y-0 items-center justify-center flex flex-col lg:flex-row lg:justify-around pt-[100px]">
+      <div class="flex-wrap space-y-[130px] lg:space-y-0 items-center justify-center flex flex-col lg:flex-row lg:space-x-[100px] pt-[100px]">
         <div class="flex flex-col justify-center items-center w-[350px] h-[250px] bg-primary-color-2 space-y-1 rounded-md">
           <img class="absolute -translate-y-[130px]" src="./assets/images/convertible.png" alt="Convetible Image">
           <h4 class="text-white text-3xl font-[neue-haas-light]">Convertible</h4>
           <p class="text-white font-[neue-haas-light] capitalize tracking-wider">convertible Bonds Built for DeFi</p>
           <div>
-            <button class="w-[100px] translate-y-8 font-[neue-haas-light] h-[35px] text-white bg-black rounded-md">
+            <button class="w-[100px] translate-y-8 font-[neue-haas-light] h-[35px] text-white bg-black rounded-md hover:bg-white hover:text-primary-color hover:font-bold">
               <span>Learn More</span>
             </button>
           </div>
         </div>
         <div class="flex flex-col justify-center items-center w-[350px] h-[250px] bg-primary-color-2 space-y-1 rounded-md">
-          <img class="absolute -translate-y-[130px]" src="./assets/images/Simple.png" alt="Simple Image">
+          <img class="absolute -translate-y-[130px]" src="./assets/images/simple.png" alt="Simple Image">
           <h4 class="text-white text-3xl font-[neue-haas-light]">Simple</h4>
           <p class="text-white font-[neue-haas-light] capitalize tracking-wider">Simple Bonds Built for DeFi</p>
           <div>
-            <button class="w-[100px] translate-y-8 font-[neue-haas-light] h-[35px] text-white bg-black rounded-md">
+            <button class="w-[100px] translate-y-8 font-[neue-haas-light] h-[35px] text-white bg-black rounded-md hover:bg-white hover:text-primary-color hover:font-bold">
               <span>Learn More</span>
             </button>
           </div>
@@ -69,7 +69,7 @@
     <!-- Product Section End -->
 
     <!-- Feature Start -->
-    <div class="pl-[70px] pr-[70px] pt-[30px] pb-[30px] w-[100%] bg-frame-2 bg-primary-color">
+    <div class="pl-[70px] pr-[70px] pt-[30px] pb-[30px] w-[100%] bg-frame-2 bg-primary-color bg-blend-color-dodge">
       
       <div class="flex justify-start items-center space-x-2">
         <hr class="w-[90px] border-secondary-color border-2 rounded-sm"/>
@@ -81,14 +81,14 @@
           We’ve used financial engineering to create<br/>
           features tailor-made for DAIs.
         </p> 
-        <button class="pl-[20px] pr-[20px] font-[neue-haas-light] h-[35px]  text-sm md:text-md lg:text-lg text-white bg-secondary-color rounded-sm capitalize">
+        <button class="pl-[20px] pr-[20px] font-[neue-haas-light] h-[35px]  text-sm md:text-md lg:text-lg text-white bg-tertiary-color rounded-sm capitalize hover:bg-white hover:text-primary-color hover:font-bold">
           read documentation
         </button>
       </div>
       
-      <div class="flex flex-wrap justify-center  lg:justify-between items-center">
+      <div class="flex flex-1 flex-wrap justify-center  lg:justify-between items-center">
         <div class="w-[290px] h-[200px] bg-primary-color-2 flex justify-center items-center flex-col space-y-4 rounded-md m-[25px] p-[5px]">
-          <img src="./assets/images/features Icon-1.png">
+          <img src="./assets/images/icon-1.png">
           <h4 class="text-white text-3xl font-[neue-haas-light]">Browser-Friendly</h4>
           <p class="text-white font-[neue-haas-light] capitalize tracking-wider text-center">
             no liquidations.<br/>
@@ -96,7 +96,7 @@
           </p>
         </div>
         <div class="w-[290px] h-[200px] bg-primary-color-2 flex justify-center items-center flex-col space-y-4 rounded-md m-[25px] p-[5px]">
-          <img src="./assets/images/features Icon-2.png">
+          <img src="./assets/images/icon-2.png">
           <h4 class="text-white text-3xl font-[neue-haas-light]">Flexible</h4>
           <p class="text-white font-[neue-haas-light] capitalize tracking-wider text-center">
             All collateral<br/>
@@ -104,7 +104,7 @@
           </p>
         </div>
         <div class="w-[290px] h-[200px] bg-primary-color-2 flex justify-center items-center flex-col space-y-4 rounded-md m-[25px] p-[5px]">
-          <img src="./assets/images/features Icon-3.png">
+          <img src="./assets/images/icon-3.png">
           <h4 class="text-white text-3xl font-[neue-haas-light]">Assured</h4>
           <p class="text-white font-[neue-haas-light] capitalize tracking-wider text-center">
             Guaranteed liquidity<br/>
@@ -112,7 +112,7 @@
           </p>
         </div>
         <div class="w-[290px] h-[200px] bg-primary-color-2 flex justify-center items-center flex-col space-y-4 rounded-md m-[25px] p-[5px]">
-          <img src="./assets/images/features Icon-4.png">
+          <img src="./assets/images/icon-4.png">
           <h4 class="text-white text-3xl font-[neue-haas-light]">Customizable</h4>
           <p class="text-white font-[neue-haas-light] capitalize tracking-wider text-center">
             Tailored to fit your<br/>
@@ -120,7 +120,7 @@
           </p>
         </div>
         <div class="w-[290px] h-[200px] bg-primary-color-2 flex justify-center items-center flex-col space-y-4 rounded-md m-[25px] p-[5px]">
-          <img src="./assets/images/features Icon-5.png">
+          <img src="./assets/images/icon-5.png">
           <h4 class="text-white text-3xl font-[neue-haas-light]">Predictable</h4>
           <p class="text-white font-[neue-haas-light] capitalize tracking-wider text-center">
             Fixed rates, fixed term length, <br/>
@@ -128,7 +128,7 @@
           </p>
         </div>
         <div class="w-[290px] h-[200px] bg-primary-color-2 flex justify-center items-center flex-col space-y-4 rounded-md m-[25px] p-[5px]">
-          <img src="./assets/images/features Icon-6.png">
+          <img src="./assets/images/icon-6.png">
           <h4 class="text-white text-3xl font-[neue-haas-light]">Secure</h4>
           <p class="text-white font-[neue-haas-light] capitalize tracking-wider text-center">
             Audited oracle-less<br/>
@@ -141,7 +141,7 @@
     <!-- Feature End -->
 
     <!-- Mission Start -->
-    <div class="pl-[70px] pr-[70px] pt-[30px] pb-[50px] w-[100%] bg-frame-3 bg-primary-color space-y-8 flex flex-col">
+    <div class="pl-[70px] pr-[70px] pt-[30px] pb-[50px] w-[100%] bg-frame-3 bg-primary-color space-y-8 flex flex-col bg-blend-color-dodge">
 
       <div class="flex justify-start items-center space-x-2">
         <hr class="w-[90px] border-secondary-color border-2 rounded-sm"/>
@@ -168,7 +168,7 @@
           to do just that.
         </p>
         <div>
-          <button class="w-[100px] md:w-[150px] translate-y-6 md:translate-y-8 font-[neue-haas-light] md:h-[35px] text-white bg-tertiary-color rounded-sm">
+          <button class="w-[100px] md:w-[150px] translate-y-6 md:translate-y-8 font-[neue-haas-light] md:h-[35px] text-white bg-tertiary-color rounded-sm hover:bg-white hover:text-primary-color hover:font-bold">
             <span>Read Blog</span>
           </button>
         </div>
@@ -176,98 +176,192 @@
     </div>
     <!-- Mission End -->
 
-    <!-- Partner Start -->
-    <div class="pl-[70px] pr-[70px] pt-[30px] pb-[50px] w-[100%] bg-frame-1 bg-primary-color space-y-8 flex flex-col">
-
-      <div class="flex justify-start items-center space-x-2">
-        <hr class="w-[90px] border-secondary-color border-2 rounded-sm"/>
-        <h2 class="text-secondary-color text-lg font-[neue-haas-medium]">Mission</h2>
-      </div>
-
-      <div class="flex justify-between">
-        <h3 class="text-white font-[neue-haas-medium] text-4xl lg:text-5xl capitalize">
-          we’re in good<br/>
-          company
-        </h3>  
-        <p class="text-white font-[neue-haas-light] text-lg md:text-xl lg:text-2xl text-right capitalize">
-          Want to learn more about what we do?<br/>
-          Stay up to date on our mission and<br/>
-          progress through our blog.
-        </p> 
-      </div>
-    </div>
-    <div class="w-screen bg-primary-color-2 h-[100px] border-2 border-y-secondary-color border-x-transparent">
-      <div class="absolute flex translate-y-6 animate-slide">
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• ParaFi Capital</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Dragonfly Capital</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Nascent Ventures</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Buckley Ventures</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Robert Compound</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Kain Synthetix</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Sid Maple</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Tyler Barnbridge</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Max FiatDAO</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Joey Tribe</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Sam Frax</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Kenton Sense</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Joey Tribe</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Max FiatDAO</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Tyler Barnbridge</div>
-      </div>
-    </div>
-
-    <div class="w-screen bg-primary-color-2 mt-[30px] h-[100px] border-2 border-y-secondary-color border-x-transparent">
-      <div class="absolute flex translate-y-6 animate-slide">
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• ParaFi Capital</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Dragonfly Capital</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Nascent Ventures</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Buckley Ventures</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Robert Compound</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Kain Synthetix</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Sid Maple</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Tyler Barnbridge</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Max FiatDAO</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Joey Tribe</div>
-        <div class="text-3xl w-[300px] text-secondary-color text-center ">• Sam Frax</div>
-      </div>
-    </div>
-
-
-    <!-- Partner End -->
-
-    <!-- Contact Start -->
-    <div class="pl-[70px] pr-[70px] pt-[30px] pb-[50px] w-[100%] bg-frame-2 bg-primary-color space-y-8 flex flex-col">
-
-      <div class="flex justify-start items-center space-x-2">
-        <hr class="w-[90px] border-secondary-color border-2 rounded-sm"/>
-        <h2 class="text-secondary-color text-lg font-[neue-haas-medium]">Contact</h2>
-      </div>
-
-      <div class="flex justify-between">
-        <h3 class="text-white font-[neue-haas-medium] text-4xl lg:text-5xl capitalize">
-          intrested?
-        </h3>  
-        <div class="flex space-x-3">
-          <button class="text-white font-[neue-haas-medium] bg-tertiary-color w-[130px] h-[38px] rounded-sm">Get Access</button>
-          <button class="text-white font-[neue-haas-light] border-2 border-tertiary-color w-[130px] h-[38px] rounded-sm">Learn More</button>
+    <div class="bg-primary-color space-y-4">
+      <!-- Partner Start -->
+      <div class="pl-[70px] pr-[70px] pt-[30px] pb-[50px] w-[100%] bg-frame-1 bg-primary-color space-y-8 flex flex-col bg-blend-color-dodge">
+  
+        <div class="flex justify-start items-center space-x-2">
+          <hr class="w-[90px] border-secondary-color border-2 rounded-sm"/>
+          <h2 class="text-secondary-color text-lg font-[neue-haas-medium]">Partners</h2>
+        </div>
+  
+        <div class="flex justify-between">
+          <h3 class="text-white font-[neue-haas-medium] text-4xl lg:text-5xl capitalize">
+            we’re in good<br/>
+            company
+          </h3>  
+          <p class="text-white font-[neue-haas-light] text-lg md:text-xl lg:text-2xl text-right capitalize">
+            Want to learn more about what we do?<br/>
+            Stay up to date on our mission and<br/>
+            progress through our blog.
+          </p> 
         </div>
       </div>
+      <div class="w-screen bg-primary-color-2 h-[100px] border-2 border-y-secondary-color border-x-transparent">
+        <div class="absolute flex animate-slide mt-[25px]">
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• ParaFi Capital</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Dragonfly Capital</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Nascent Ventures</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Buckley Ventures</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Robert Compound</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Kain Synthetix</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Sid Maple</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Tyler Barnbridge</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Max FiatDAO</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Joey Tribe</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Sam Frax</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Kenton Sense</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Austin Llama</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Ani Praxis</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Getty GFX</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• ParaFi Capital</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Dragonfly Capital</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Nascent Ventures</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Buckley Ventures</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Robert Compound</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Kain Synthetix</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Sid Maple</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Tyler Barnbridge</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Max FiatDAO</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Joey Tribe</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Sam Frax</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Kenton Sense</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Joey Tribe</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Max FiatDAO</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Tyler Barnbridge</div>
+        </div>
+      </div>
+      <div class="w-screen bg-primary-color-2 h-[100px] border-2 border-y-secondary-color border-x-transparent">
+        <div class="absolute flex animate-slide mt-[25px]">
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• ParaFi Capital</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Dragonfly Capital</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Nascent Ventures</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Buckley Ventures</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Robert Compound</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Kain Synthetix</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Sid Maple</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Tyler Barnbridge</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Max FiatDAO</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Joey Tribe</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Sam Frax</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Kenton Sense</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Austin Llama</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Ani Praxis</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Getty GFX</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• ParaFi Capital</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Dragonfly Capital</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Nascent Ventures</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Buckley Ventures</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Robert Compound</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Kain Synthetix</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Sid Maple</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Tyler Barnbridge</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Max FiatDAO</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Joey Tribe</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Sam Frax</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Kenton Sense</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Joey Tribe</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Max FiatDAO</div>
+          <div class="text-3xl w-[300px] text-secondary-color text-center ">• Tyler Barnbridge</div>
+        </div>
+      </div>
+      <!-- Partner End -->
+  
+      <!-- Contact Start -->
+      <div class="pl-[70px] pr-[70px] pt-[30px] pb-[50px] w-[100%] bg-frame-2 bg-primary-color space-y-8 flex flex-col bg-blend-color-dodge">
+  
+        <div class="flex justify-start items-center space-x-2">
+          <hr class="w-[90px] border-secondary-color border-2 rounded-sm"/>
+          <h2 class="text-secondary-color text-lg font-[neue-haas-medium]">Contact</h2>
+        </div>
+  
+        <div class="flex justify-between">
+          <h3 class="text-white font-[neue-haas-medium] text-4xl lg:text-5xl capitalize">
+            intrested?
+          </h3>  
+          <div class="flex space-x-3">
+            <button class="text-white font-[neue-haas-medium] bg-tertiary-color w-[130px] h-[38px] rounded-sm hover:bg-white hover:text-primary-color hover:font-bold">Get Access</button>
+            <button class="text-white font-[neue-haas-light] border-2 border-tertiary-color w-[130px] h-[38px] rounded-sm hover:bg-black hover:text-white hover:font-bold hover:border-black">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <!-- Contact End -->
     </div>
-    <!-- Contact End -->
+
+    
 
     <!-- Footer Start -->
     <div class="flex bg-black pl-[70px] pr-[70px] pt-[20px] pb-[20px]">
       <h1 class="flex-1 text-lg font-[neue-haas-light] text-white">Arbor Finanace</h1>
       <ul class="flex flex-wrap space-x-3">
-        <li class="text-lg font-[neue-haas-light] text-white"><a href="#">FAQ</a></li>
-        <li class="text-lg font-[neue-haas-light] text-white"><a href="#">Blog</a></li>
-        <li class="text-lg font-[neue-haas-light] text-white"><a href="#">Docs</a></li>
-        <li class="text-lg font-[neue-haas-light] text-white"><a href="#">Discord</a></li>
-        <li class="text-lg font-[neue-haas-light] text-white"><a href="#">Twitter</a></li>
-        <li class="text-lg font-[neue-haas-light] text-white"><a href="#">Github</a></li>
+        <li class="text-lg font-[neue-haas-light] text-white hover:text-secondary-color"><a href="#">FAQ</a></li>
+        <li class="text-lg font-[neue-haas-light] text-white hover:text-secondary-color"><a href="#">Blog</a></li>
+        <li class="text-lg font-[neue-haas-light] text-white hover:text-secondary-color"><a href="#">Docs</a></li>
+        <li class="text-lg font-[neue-haas-light] text-white hover:text-secondary-color"><a href="#">Discord</a></li>
+        <li class="text-lg font-[neue-haas-light] text-white hover:text-secondary-color"><a href="#">Twitter</a></li>
+        <li class="text-lg font-[neue-haas-light] text-white hover:text-secondary-color"><a href="#">Github</a></li>
       </ul>
     </div>
     <!-- Footer End -->
 
+
+    <script>
+      var TxtType = function(el, toRotate, period) {
+          this.toRotate = toRotate;
+          this.el = el;
+          this.loopNum = 0;
+          this.period = parseInt(period, 10) || 2000;
+          this.txt = '';
+          this.tick();
+          this.isDeleting = false;
+      };
+
+      TxtType.prototype.tick = function() {
+          var i = this.loopNum % this.toRotate.length;
+          var fullTxt = this.toRotate[i];
+
+          if (this.isDeleting) {
+          this.txt = fullTxt.substring(0, this.txt.length - 1);
+          } else {
+          this.txt = fullTxt.substring(0, this.txt.length + 1);
+          }
+
+          this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+          var that = this;
+          var delta = 200 - Math.random() * 100;
+
+          if (this.isDeleting) { delta /= 2; }
+
+          if (!this.isDeleting && this.txt === fullTxt) {
+          delta = this.period;
+          this.isDeleting = true;
+          } else if (this.isDeleting && this.txt === '') {
+          this.isDeleting = false;
+          this.loopNum++;
+          delta = 500;
+          }
+
+          setTimeout(function() {
+          that.tick();
+          }, delta);
+      };
+
+      window.onload = function() {
+          var elements = document.getElementsByClassName('typewrite');
+          for (var i=0; i<elements.length; i++) {
+              var toRotate = elements[i].getAttribute('data-type');
+              var period = elements[i].getAttribute('data-period');
+              if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+              }
+          }
+          // INJECT CSS
+          var css = document.createElement("style");
+          css.type = "text/css";
+          css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+          document.body.appendChild(css);
+      };
+    </script>
   </body>
 </html>
