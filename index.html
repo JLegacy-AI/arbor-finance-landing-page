@@ -8,57 +8,59 @@
   </head>
   <body class="overflow-x-hidden">
     <!-- Header Start -->
-    <header class="flex w-[100%] h-screen flex-col bg-hero-section bg-no-repeat bg-cover pl-[70px] pr-[70px] pt-[30px] bg-bottom">
-      <nav class="flex justify-between">
+    <header class="flex w-[100%] h-screen flex-col bg-hero-section bg-no-repeat bg-cover md:pl-[70px] md:pr-[70px] pt-[30px] bg-bottom">
+      <nav class="flex justify-center sm:justify-between">
         <img class="h-[48px]" src="./assets/images/logo.png" alt="web logo">
-        <button class="w-[115px] border-2 border-secondary-color font-['neue-haas-medium'] text-lg rounded-3xl text-white hover:bg-secondary-color">Contact</button>
+        <button class="h-5/6 hidden sm:block 425:w-[80px] md:w-[100px] lg:w-[115px] border-2 border-secondary-color font-['neue-haas-medium'] text-sm md:text-base lg:text-lg rounded-3xl text-white hover:bg-secondary-color">Contact</button>
       </nav>
       <div class="flex-1 flex justify-center items-center text-center flex-col space-y-6">
-        <h1 class="text-5xl lg:text-6xl font-bold capitalize text-white mb-2 lg:mb-6">Borrow With No Liquidations <br/>Against $ <a href="" class="typewrite" data-period="2000" data-type='[ "ANYTHING","BIT", "LDO", "GNO", "ANYTHING", "FOX", "BAL", "ENS", "ANYTHING", "GTC", "RAD", "ROOK", "ANYTHING", "PERP", "TRIBE", "API3" ]'><span class="wrap"></span></a></h1>
-        <p class="text-sm font-[neue-haas-light] text-white text-center md:text-lg capitalize tracking-wide">arbor enables creditworthy DAOs to obtain fixed-rate
+        <h1 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold capitalize text-white mb-2 lg:mb-6">Borrow With No Liquidations <br/>Against $ <a href="" class="typewrite" data-period="2000" data-type='[ "ANYTHING","BIT", "LDO", "GNO", "ANYTHING", "FOX", "BAL", "ENS", "ANYTHING", "GTC", "RAD", "ROOK", "ANYTHING", "PERP", "TRIBE", "API3" ]'><span class="wrap"></span></a></h1>
+        <p class=" text-[10px] font-[neue-haas-light] text-white text-center sm:text-sm md:text-lg capitalize tracking-wide">
+          arbor enables creditworthy DAOs to obtain fixed-rate
           <br/> financing using their project tokens as collateral.
         </p>
         <div class="flex space-x-10">
-          <button class="w-[130px] font-[neue-haas-medium] text-lg h-12 text-white bg-black hover:bg-white hover:text-black">Get Access</button>
-          <button class="w-[130px] font-[neue-haas-medium] text-lg h-12 text-black bg-secondary-color hover:bg-tertiary-color hover:text-white">Learn More</button>
+          <button class="w-[60px] md:w-[100px] lg:w-[130px] font-[neue-haas-medium] text-[10px] sm:text-sm md:text-base lg:text-lg h-8 sm:h-10 md:h-12 text-white bg-black hover:bg-white hover:text-black">Get Access</button>
+          <button class="w-[60px] md:w-[100px] lg:w-[130px] font-[neue-haas-medium] text-[10px] sm:text-sm md:text-base lg:text-lg h-8 sm:h-10 md:h-12 text-black bg-secondary-color hover:bg-tertiary-color hover:text-white">Learn More</button>
         </div>
       </div>
     </header>
     <!-- Header End -->
+
     <!-- Products Section Start -->
-    <div class="pl-[70px] pr-[70px] pt-[30px] w-[100%] min-h-screen space-y-5 bg-primary-color bg-frame-1 bg-top bg-contain">
+    <div class="p-[30px] md:pl-[70px] md:pr-[70px] md:pt-[30px] w-[100%] min-h-screen space-y-5 bg-primary-color bg-frame-1 bg-top bg-contain">
       <div class="flex justify-start items-center space-x-2">
-        <hr class="w-[90px] border-secondary-color border-2 rounded-sm"/>
-        <h2 class="text-secondary-color text-lg font-[neue-haas-medium]">Product</h2>
+        <hr class="w-[60px] sm:w-[70px] md:w-[80px] lg:w-[90px] border-secondary-color border-[1px] md:border-2 rounded-sm"/>
+        <h2 class="text-secondary-color text-[clamp(1rem,0.75rem+1.5vw,2rem)] font-[neue-haas-medium]">Product</h2>
       </div>
       <div class="flex justify-between">
-        <h3 class="text-white font-[neue-haas-medium] text-4xl lg:text-5xl">
-          Bonds <br/> 
+        <h3 class="text-white font-[neue-haas-medium] text-[clamp(1rem,1.2rem+1.0vw,3rem)]">
+          Bonds <br class=""/> 
           For DAOs
         </h3>  
-        <p class="text-white font-[neue-haas-light] text-lg md:text-xl lg:text-2xl text-right">
+        <p class="text-white font-[neue-haas-light] text-[clamp(0.5rem,0.25rem+1.5vw,1.5rem)] text-sm sm:text-lg md:text-xl lg:text-2xl text-right">
           Our products are built with DAOs in<br/>
           mind and created through collaboration<br/>
           with DeFi natives.</p> 
       </div>
 
       <div class="flex-wrap space-y-[130px] lg:space-y-0 items-center justify-center flex flex-col lg:flex-row lg:space-x-[100px] pt-[100px]">
-        <div class="flex flex-col justify-center items-center w-[350px] h-[250px] bg-primary-color-2 space-y-1 rounded-md">
-          <img class="absolute -translate-y-[130px]" src="./assets/images/convertible.png" alt="Convetible Image">
-          <h4 class="text-white text-3xl font-[neue-haas-light]">Convertible</h4>
-          <p class="text-white font-[neue-haas-light] capitalize tracking-wider">convertible Bonds Built for DeFi</p>
-          <div>
-            <button class="w-[100px] translate-y-8 font-[neue-haas-light] h-[35px] text-white bg-black rounded-md hover:bg-white hover:text-primary-color hover:font-bold">
+        <div class="flex flex-col justify-center items-center w-[300px] md:w-[350px] h-[200px] md:h-[250px] bg-primary-color-2 space-y-1 rounded-md">
+          <img class="absolute -translate-y-[100px] md:-translate-y-[130px] w-[clamp(80px,5px+1.5vw,150px)]" src="./assets/images/convertible.png" alt="Convetible Image">
+          <h4 class="text-white text-[clamp(20px,2px+1.5vw,30px)] font-[neue-haas-light]">Convertible</h4>
+          <p class="text-white font-[neue-haas-light] text-[clamp(1rem,2px+1.5vw,1rem)] capitalize tracking-wider">convertible Bonds Built for DeFi</p>
+          <div class="md:pt-6">
+            <button class="w-[100px] font-[neue-haas-light] h-[35px] text-white bg-black rounded-md hover:bg-white hover:text-primary-color hover:font-bold">
               <span>Learn More</span>
             </button>
           </div>
         </div>
-        <div class="flex flex-col justify-center items-center w-[350px] h-[250px] bg-primary-color-2 space-y-1 rounded-md">
-          <img class="absolute -translate-y-[130px]" src="./assets/images/simple.png" alt="Simple Image">
-          <h4 class="text-white text-3xl font-[neue-haas-light]">Simple</h4>
-          <p class="text-white font-[neue-haas-light] capitalize tracking-wider">Simple Bonds Built for DeFi</p>
-          <div>
-            <button class="w-[100px] translate-y-8 font-[neue-haas-light] h-[35px] text-white bg-black rounded-md hover:bg-white hover:text-primary-color hover:font-bold">
+        <div class="flex flex-col justify-center items-center w-[300px] md:w-[350px] h-[200px] md:h-[250px] bg-primary-color-2 space-y-1 rounded-md">
+          <img class="absolute -translate-y-[100px] md:-translate-y-[130px] w-[clamp(80px,5px+1.5vw,150px)]" src="./assets/images/simple.png" alt="Simple Image">
+          <h4 class="text-white text-2xl md:text-3xl font-[neue-haas-light]">Simple</h4>
+          <p class="text-white font-[neue-haas-light] text-[clamp(1rem,2px+1.5vw,1rem)] capitalize tracking-wider">Simple Bonds Built for DeFi</p>
+          <div class="md:pt-6">
+            <button class="w-[100px] font-[neue-haas-light] h-[35px] text-white bg-black rounded-md hover:bg-white hover:text-primary-color hover:font-bold">
               <span>Learn More</span>
             </button>
           </div>
@@ -68,7 +70,7 @@
     <!-- Product Section End -->
 
     <!-- Feature Start -->
-    <div class="pl-[70px] pr-[70px] pt-[30px] pb-[30px] w-[100%] bg-frame-2 bg-primary-color bg-no-repeat bg-top bg-contain">
+    <div class="p-[30px] md:pl-[70px] md:pr-[70px] md:pt-[30px] w-[100%] bg-frame-2 bg-primary-color bg-no-repeat bg-top bg-contain">
       
       <div class="flex justify-start items-center space-x-2">
         <hr class="w-[90px] border-secondary-color border-2 rounded-sm"/>
@@ -76,60 +78,60 @@
       </div>
 
       <div class="flex justify-between items-center mt-[10px]"> 
-        <p class="text-white font-[neue-haas-light] text-lg md:text-xl lg:text-2xl text-left">
+        <p class="text-white font-[neue-haas-light] text-[clamp(0.5rem,0.25rem+1.5vw,1.5rem)] text-left">
           We’ve used financial engineering to create<br/>
           features tailor-made for DAIs.
         </p> 
-        <button class="pl-[20px] pr-[20px] font-[neue-haas-light] h-[35px]  text-sm md:text-md lg:text-lg text-white bg-tertiary-color rounded-sm capitalize hover:bg-white hover:text-primary-color hover:font-bold">
+        <button class="pl-[20px] pr-[20px] font-[neue-haas-light] h-[35px] text-[10px] sm:text-sm md:text-md lg:text-lg text-white bg-tertiary-color rounded-sm capitalize hover:bg-white hover:text-primary-color hover:font-bold">
           read documentation
         </button>
       </div>
       
       <div class="flex flex-1 flex-wrap justify-center  lg:justify-between items-center">
-        <div class="w-[290px] h-[200px] bg-primary-color-2 flex justify-center items-center flex-col space-y-4 rounded-md m-[25px] p-[5px]">
+        <div class="w-[290px] h-[200px] bg-primary-color-2 flex justify-center items-center flex-col space-y-[clamp(1px,1px+1.5vw,16px)] rounded-md m-[25px] p-[5px]">
           <img src="./assets/images/icon-1.png">
-          <h4 class="text-white text-3xl font-[neue-haas-light]">Browser-Friendly</h4>
+          <h4 class="text-white text-[clamp(20px,2px+1.5vw,30px)] font-[neue-haas-light]">Browser-Friendly</h4>
           <p class="text-white font-[neue-haas-light] capitalize tracking-wider text-center">
             no liquidations.<br/>
             0 Stress.
           </p>
         </div>
-        <div class="w-[290px] h-[200px] bg-primary-color-2 flex justify-center items-center flex-col space-y-4 rounded-md m-[25px] p-[5px]">
+        <div class="w-[290px] h-[200px] bg-primary-color-2 flex justify-center items-center flex-col space-y-[clamp(1px,1px+1.5vw,16px)] rounded-md m-[25px] p-[5px]">
           <img src="./assets/images/icon-2.png">
-          <h4 class="text-white text-3xl font-[neue-haas-light]">Flexible</h4>
+          <h4 class="text-white text-[clamp(20px,2px+1.5vw,30px)] font-[neue-haas-light]">Flexible</h4>
           <p class="text-white font-[neue-haas-light] capitalize tracking-wider text-center">
             All collateral<br/>
             types supported.
           </p>
         </div>
-        <div class="w-[290px] h-[200px] bg-primary-color-2 flex justify-center items-center flex-col space-y-4 rounded-md m-[25px] p-[5px]">
+        <div class="w-[290px] h-[200px] bg-primary-color-2 flex justify-center items-center flex-col space-y-[clamp(1px,1px+1.5vw,16px)] rounded-md m-[25px] p-[5px]">
           <img src="./assets/images/icon-3.png">
-          <h4 class="text-white text-3xl font-[neue-haas-light]">Assured</h4>
+          <h4 class="text-white text-[clamp(20px,2px+1.5vw,30px)] font-[neue-haas-light]">Assured</h4>
           <p class="text-white font-[neue-haas-light] capitalize tracking-wider text-center">
             Guaranteed liquidity<br/>
             for borrowers.
           </p>
         </div>
-        <div class="w-[290px] h-[200px] bg-primary-color-2 flex justify-center items-center flex-col space-y-4 rounded-md m-[25px] p-[5px]">
+        <div class="w-[290px] h-[200px] bg-primary-color-2 flex justify-center items-center flex-col space-y-[clamp(1px,1px+1.5vw,16px)] rounded-md m-[25px] p-[5px]">
           <img src="./assets/images/icon-4.png">
-          <h4 class="text-white text-3xl font-[neue-haas-light]">Customizable</h4>
+          <h4 class="text-white text-[clamp(20px,2px+1.5vw,30px)] font-[neue-haas-light]">Customizable</h4>
           <p class="text-white font-[neue-haas-light] capitalize tracking-wider text-center">
             Tailored to fit your<br/>
             financing needs.
           </p>
         </div>
-        <div class="w-[290px] h-[200px] bg-primary-color-2 flex justify-center items-center flex-col space-y-4 rounded-md m-[25px] p-[5px]">
+        <div class="w-[290px] h-[200px] bg-primary-color-2 flex justify-center items-center flex-col space-y-[clamp(1px,1px+1.5vw,16px)] rounded-md m-[25px] p-[5px]">
           <img src="./assets/images/icon-5.png">
-          <h4 class="text-white text-3xl font-[neue-haas-light]">Predictable</h4>
+          <h4 class="text-white text-[clamp(20px,2px+1.5vw,30px)] font-[neue-haas-light]">Predictable</h4>
           <p class="text-white font-[neue-haas-light] capitalize tracking-wider text-center">
             Fixed rates, fixed term length, <br/>
             fixed collateral.
           </p>
         </div>
-        <div class="w-[290px] h-[200px] bg-primary-color-2 flex justify-center items-center flex-col space-y-4 rounded-md m-[25px] p-[5px]">
+        <div class="w-[290px] h-[200px] bg-primary-color-2 flex justify-center items-center flex-col space-y-[clamp(1px,1px+1.5vw,16px)] rounded-md m-[25px] p-[5px]">
           <img src="./assets/images/icon-6.png">
-          <h4 class="text-white text-3xl font-[neue-haas-light]">Secure</h4>
-          <p class="text-white font-[neue-haas-light] capitalize tracking-wider text-center">
+          <h4 class="text-white text-[clamp(20px,2px+1.5vw,30px)] font-[neue-haas-light]">Secure</h4>
+          <p class="text-white font-[neue-haas-light] text-[clamp(1rem,2px+1.5vw,2rem)] capitalize tracking-wider text-center">
             Audited oracle-less<br/>
             infrastructure.
           </p>
@@ -140,7 +142,7 @@
     <!-- Feature End -->
 
     <!-- Mission Start -->
-    <div class="pl-[70px] pr-[70px] pt-[30px] pb-[50px] w-[100%] bg-primary-color space-y-8 flex flex-col">
+    <div class="p-[30px] md:pl-[70px] md:pr-[70px] md:pt-[30px] w-[100%] bg-primary-color space-y-8 flex flex-col">
 
       <div class="flex justify-start items-center space-x-2">
         <hr class="w-[90px] border-secondary-color border-2 rounded-sm"/>
@@ -148,11 +150,11 @@
       </div>
 
       <div class="flex justify-between">
-        <h3 class="text-white font-[neue-haas-medium] text-4xl lg:text-5xl">
+        <h3 class="text-white font-[neue-haas-medium] text-[clamp(1rem,1.0rem+1.2vw,3rem)]">
           Bringing DAOs<br/>
           access to credit
         </h3>  
-        <p class="text-white font-[neue-haas-light] text-lg md:text-xl lg:text-2xl text-right">
+        <p class="text-white font-[neue-haas-light] text-[clamp(0.5rem,0.25rem+1.5vw,1.5rem)] text-right">
           Want to learn more about what we do?<br/>
           Stay up to date on our mission and<br/>
           progress through our blog.
@@ -160,14 +162,14 @@
       </div>
 
       <div class="flex flex-col justify-center items-center h-[400px] bg-mission-section bg-contain bg-no-repeat bg-transparent bg-center">
-        <p class="text-center font-[neue-haas-light] text-lg md:text-xl lg:text-2xl text-white tracking-wider">
+        <p class="text-center font-[neue-haas-light] text-[clamp(0.5rem,1.2rem+1.0vw,1.5rem)] text-white tracking-wider">
           Credit is a powerful tool. It can supercharge growth and provide<br/>
           financial well-being. DAOs have the potential to change the<br/>
           world and arbor is providing them the  financial tooling<br/>
           to do just that.
         </p>
         <div>
-          <button class="w-[100px] md:w-[150px] translate-y-6 md:translate-y-8 font-[neue-haas-light] md:h-[35px] text-white bg-tertiary-color rounded-sm hover:bg-white hover:text-primary-color hover:font-bold">
+          <button class="w-[100px] md:w-[150px] translate-y-4 sm:translate-y-6 md:translate-y-8 font-[neue-haas-light] md:h-[35px] text-white bg-tertiary-color rounded-sm hover:bg-white hover:text-primary-color hover:font-bold">
             <span>Read Blog</span>
           </button>
         </div>
@@ -177,7 +179,7 @@
 
     <div class=" space-y-4 bg-frame-3 bg-bottom bg-[length:100%_160%] bg-primary-color">
       <!-- Partner Start -->
-      <div class="pl-[70px] pr-[70px] pt-[30px] pb-[50px] w-[100%] justify-center space-y-8 flex flex-col">
+      <div class="p-[30px] md:pl-[70px] md:pr-[70px] md:pt-[30px] w-[100%] justify-center space-y-8 flex flex-col">
   
         <div class="flex justify-start items-center space-x-2">
           <hr class="w-[90px] border-secondary-color border-2 rounded-sm"/>
@@ -185,11 +187,11 @@
         </div>
   
         <div class="flex justify-between">
-          <h3 class="text-white font-[neue-haas-medium] text-4xl lg:text-5xl capitalize">
+          <h3 class="text-white font-[neue-haas-medium] text-[clamp(1rem,1.0rem+1.2vw,3rem)] capitalize">
             we’re in good<br/>
             company
           </h3>  
-          <p class="text-white font-[neue-haas-light] text-lg md:text-xl lg:text-2xl text-right capitalize">
+          <p class="text-white font-[neue-haas-light] text-[clamp(0.5rem,0.25rem+1.5vw,1.5rem)] text-right capitalize">
             Want to learn more about what we do?<br/>
             Stay up to date on our mission and<br/>
             progress through our blog.
@@ -267,7 +269,7 @@
       <!-- Partner End -->
   
       <!-- Contact Start -->
-      <div class="pl-[70px] pr-[70px] pt-[30px] pb-[50px] w-[100%] justify-center space-y-8 flex flex-col">
+      <div class="p-[30px] md:pl-[70px] md:pr-[70px] md:pt-[30px] w-[100%] justify-center space-y-8 flex flex-col">
   
         <div class="flex justify-start items-center space-x-2">
           <hr class="w-[90px] border-secondary-color border-2 rounded-sm"/>
@@ -275,7 +277,7 @@
         </div>
   
         <div class="flex justify-between">
-          <h3 class="text-white font-[neue-haas-medium] text-4xl lg:text-5xl capitalize">
+          <h3 class="text-white font-[neue-haas-medium] text-[clamp(1rem,1.0rem+1.2vw,3rem)] capitalize">
             intrested?
           </h3>  
           <div class="flex space-x-3">
@@ -288,7 +290,7 @@
     </div>    
 
     <!-- Footer Start -->
-    <div class="flex bg-black pl-[70px] pr-[70px] pt-[20px] pb-[20px]">
+    <div class="flex bg-black p-[30px] md:pl-[70px] md:pr-[70px] md:pt-[30px]">
       <h1 class="flex-1 text-lg font-[neue-haas-light] text-white">Arbor Finanace</h1>
       <ul class="flex flex-wrap space-x-3">
         <li class="text-lg font-[neue-haas-light] text-white hover:text-secondary-color"><a href="#">FAQ</a></li>

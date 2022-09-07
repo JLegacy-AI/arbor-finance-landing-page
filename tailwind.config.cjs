@@ -3,6 +3,15 @@ module.exports = {
   content: ["./index.html",],
   theme: {
     extend: {
+      fontSize:{
+        
+      },
+      screens:{
+        '320':'320px',
+        '375':'375px',
+        '425':'425px',
+        '490':'490px',
+      },
       colors:{
         'primary-color':'#081613',
         'primary-color-2':'#0F2822',
